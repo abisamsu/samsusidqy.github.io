@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Sidqy | Web</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"> -->
+	<!-- <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css” /> -->
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="link-nav" id="nav-Links">
+				<!-- <i class="fas fa-times-circle" onclick="hideMenu()"></i> -->
+				<!-- <ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+				</ul> -->
+			</div>
+			<!-- <i class="fas fa-align-justify" onclick="showMenu()"></i> -->
+		</nav>
+
+		<div class="tex1">
+			<h1><span class="eventtulis"></span></h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>	
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<a href="">Visit More</a>
+		</div>
+		<img src="img/teamwork.png" class="teamwork">	
+		
+	</section>
+<!-- konten -->
+	<div class="container-konten">
+		<section class="myproject">
+			<h1>My Profile</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+			<div class="row1">
+				<div class="project">
+					<h3>My Blog</h3>
+					<a href="blog.html"> More</a>
+				</div>
+				<div class="project">
+					<h3>My YouTube</h3>
+					<a href="https://www.youtube.com/">More</a>
+				</div>
+				<div class="project">
+					<h3>My Project</h3>
+					<a href=""> More</a>
+				</div>
+
+			</div>
+		</section>
+	</div>
+	<section class="galery">
+		<h1>Gallery</h1>
+	<div class="row1">
+		<div class="galery-col">
+			<a href="img/galery1.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery1.jpg">
+			</a>
+		</div>
+		<div class="galery-col">
+			<a href="img/galery2.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery2.jpg">
+			</a>
+		</div>
+		<div class="galery-col">
+			<a href="img/galery3.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery3.jpg">
+			</a>
+		</div>
+		<!-- <div class="galery-col">
+			<img src="img/galery4.jpg">
+		</div>
+		<div class="galery-col">
+			<img src="img/galery5.jpg">
+		</div>
+		<div class="galery-col">
+			<img src="img/galery6.jpg">
+		</div>
+		<div class="galery-col">
+			<img src="img/galery7.jpg">
+		</div> -->
+	</div>
+	<div class="row1">
+	<div class="galery-col">
+			<a href="img/galery4.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery4.jpg">
+			</a>
+		</div>
+		<div class="galery-col">
+			<a href="img/galery5.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery5.jpg">
+			</a>
+		</div>
+		<div class="galery-col">
+			<a href="img/galery6.jpg" data-lightbox="models" data-title="sumber/pixel.com">
+			<img src="img/galery6.jpg">
+			</a>
+		</div>
+		
+	</div>	
+	</section>
+
+	<section class="partner">
+		<h1></h1>
+	</section>
+
+<!-- Footer -->
+<section class="footer">
+	<div class="icons">
+		<a href="https://www.facebook.com/"></a>
+		<a href="https://www.instagram.com/"></a>
+		<a href="https://twitter.com/"></a>
+	</div>
+	<p>Built With <i class="far fa-heart"></i> Abi Samsu | &copy 2021</p>
+</section>
+
+
+
+
+
+<!-- Java Script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="lightbox-plus-jquery.js"></script>
+<script>
+	var type = new Typed(".eventtulis",{
+		strings: ["Abi Samsu Sidqy","Web Developer","Designer"],
+		typeSpeed:100,
+		bakcSpeed:100,
+		loop:true
+	})
+
+
+</script>
+<script >
+		var navLinks = document.getElementById("nav-Links");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+</script>
+
+
+
+</body>
+</html>
